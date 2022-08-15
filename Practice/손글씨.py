@@ -36,6 +36,7 @@ def predict(network, x):
     return y
 #%%
 x, t = get_data()
+print(x,t)
 network = init_network()
 # %%
 batch_size = 100
